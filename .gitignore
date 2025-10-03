@@ -1,0 +1,15 @@
+# Ignore common files
+node_modules/
+.DS_Store
+*.log
+*.env
+.venv/
+__pycache__/
+
+# Visuals - keep large media out of repo by default
+visuals/*.mp4
+visuals/*.mov
+visuals/*.gif
+visuals/*.png
+visuals/*.jpg
+visuals/*.pdf
