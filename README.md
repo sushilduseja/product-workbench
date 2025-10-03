@@ -1,30 +1,8 @@
-# Product Workbench — Portfolio
-
-Short bio
-
-- Direct, results-oriented product leader with 19+ years in capital markets.
-- Specialise in high-impact digital transformation, measurable value, continuous learning, and empathetic team leadership.
+# Product Workbench - Portfolio
 
 Product philosophy
 
 - Focus on measurable impact, iterative learning, and pragmatic prototyping.
-
-## Career highlights
-
-- Delivered £6M FX platform modernization; increased efficiency by 30%
-- Launched trading products, driving $1M+ annual revenue (Japan market entry)
-- Led Agile teams; reduced deployment time by 25%
-- Pioneered TDD: decreased defects by 40%, accelerated delivery by 20%
-- Managed $1–10M budgets; achieved 90%+ on-time delivery
-- Mentored 20+ engineers; improved velocity by 20%
-- Multiple promotions and awards for innovation
-
-## Key differentiators
-
-- Technical depth + business acumen
-- Global market expertise (APAC, global platforms)
-- Innovation driver (AI, automation, cloud)
-- Cultural intelligence, cross-functional leadership
 
 ---
 
@@ -91,16 +69,3 @@ Example mini-case study
 - `/projects/` — a folder per project with README, case-study, demo notes
 
 ---
-
-## How to use
-
-1. Clone or add each project repo under `/projects/<project-slug>`.
-2. Drop visuals into `/visuals` and update paths in project READMEs.
-3. Populate metrics in `/impact/metrics.md` and testimonials in `/impact/testimonials.md`.
-
----
-
-If you want, I can also:
-- Create a small script to build a static site from this content (Hugo/Eleventy)
-- Generate example visual mockups (placeholder images) to replace the placeholders
-
