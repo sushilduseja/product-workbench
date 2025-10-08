@@ -72,7 +72,7 @@ sequenceDiagram
     PM->>Team: Deploy winning variant
 ```
 
-[View diagram source](../../visuals/customer-journey-mapper/diagrams/implementation_steps_sequence.mmd)
+[View diagram source](../../visuals/customer-journey-mapper/diagrams/implementation_steps_sequence.md)
 
 ---
 

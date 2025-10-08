@@ -20,7 +20,7 @@
 
 ### Pain Points
 
-[View Diagram](../../visuals/customer-journey-mapper/diagrams/pain_points_breakdown.mmd)
+[View Diagram](../../visuals/customer-journey-mapper/diagrams/pain_points_breakdown.md)
 
 **Quantified Impact**
 - 47% drop-off rate at KYC step
@@ -47,7 +47,7 @@ Map the complete journey visually. Surface friction automatically. Test solution
 
 ### Implementation Steps
 
-[View Diagram](../../visuals/customer-journey-mapper/diagrams/implementation_steps_sequence.mmd)
+[View Diagram](../../visuals/customer-journey-mapper/diagrams/implementation_steps_sequence.md)
 
 ---
 
@@ -65,7 +65,7 @@ Map the complete journey visually. Surface friction automatically. Test solution
 
 ### Visual Impact Flow
 
-[View Diagram](../../visuals/customer-journey-mapper/diagrams/visual_impact_flow.mmd)
+[View Diagram](../../visuals/customer-journey-mapper/diagrams/visual_impact_flow.md)
 
 ### Qualitative Feedback
 
