@@ -2,7 +2,13 @@
 
 Place all visual assets here. Prefer external hosting (S3, CDN) for large files and keep small preview GIFs in this folder.
 
-Suggested filenames (used in READMEs):
+## Project-Specific Visuals
+
+### Customer Journey Mapper
+- **Screenshots:** `customer-journey-mapper/screenshots/` - Live application screenshots
+- **Documentation:** `customer-journey-mapper/README.md` - Asset organization guide
+
+## Suggested Filenames (used in READMEs):
 - `skills-radar.png`
 - `dashboard.gif`
 - `simulator.mp4`
@@ -12,4 +18,12 @@ Suggested filenames (used in READMEs):
 - `journey.gif`
 - `case-deck.pdf`
 
-Note: This repo currently contains placeholders; add real assets to match links in `README.md` and project READMEs.
+## Asset Guidelines
+- **File Naming:** Use descriptive, kebab-case names
+- **Formats:** PNG for quality, JPG for size, GIF for animations
+- **Dimensions:** 1385px width x ~11,000px height (full page capture)
+- **File Size:** 300-500KB per image (naturally optimized)
+- **Quality:** High-quality screenshots without compression artifacts
+- **Alt Text:** Always provide descriptive alt text for accessibility
+
+Note: This repo contains both placeholder references and actual captured assets from live applications.
