@@ -5,17 +5,17 @@ sequenceDiagram
     participant Data as Analytics Data
     participant Team as Cross-functional Team
     
-    PM-&gt;&gt;CJM: Map KYC flow
-    CJM-&gt;&gt;Data: Import analytics
-    Data-&gt;&gt;CJM: Return drop-off data
-    CJM-&gt;&gt;PM: Highlight 47% drop at verification
-    PM-&gt;&gt;CJM: Pull user feedback
-    CJM-&gt;&gt;PM: Show "unclear requirements" theme
-    PM-&gt;&gt;Team: Share visual journey map
-    Team-&gt;&gt;PM: Align on solution
-    PM-&gt;&gt;CJM: Create test variants
-    CJM-&gt;&gt;Data: Run A/B test
-    Data-&gt;&gt;CJM: Variant B wins (22% drop-off)
-    CJM-&gt;&gt;PM: Export results
-    PM-&gt;&gt;Team: Deploy winning variant
+    PM->>CJM: Map KYC flow
+    CJM->>Data: Import analytics
+    Data->>CJM: Return drop-off data
+    CJM->>PM: Highlight 47% drop at verification
+    PM->>CJM: Pull user feedback
+    CJM->>PM: Show "unclear requirements" theme
+    PM->>Team: Share visual journey map
+    Team->>PM: Align on solution
+    PM->>CJM: Create test variants
+    CJM->>Data: Run A/B test
+    Data->>CJM: Variant B wins (22% drop-off)
+    CJM->>PM: Export results
+    PM->>Team: Deploy winning variant
 ```
