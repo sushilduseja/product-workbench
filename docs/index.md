@@ -1,11 +1,22 @@
 # Documentation Index
 
-This folder contains the product documentation, specs, wireframes, and compliance annexes for the portfolio.
+Supporting documentation for portfolio projects.
 
-Contents
+## Contents
 
-- `product-specs.md` — high-level product specifications and architecture notes
-- `wireframes.md` — wireframe sketches and links to design files
-- `user-stories.md` — prioritized user stories and acceptance criteria
-- `compliance-annex.md` — regulatory mapping and impact notes
-- `how-to.md` — how to navigate the repo and update artefacts
+- **[Product Specifications](product-specs.md)** - Architecture and technical decisions
+- **[User Stories](user-stories.md)** - Prioritized requirements and acceptance criteria
+- **[Compliance Annex](compliance-annex.md)** - Regulatory mapping for financial products
+- **[How-To Guide](how-to.md)** - Repository navigation and maintenance
+
+## Purpose
+
+These documents provide deeper context for project implementations, demonstrating:
+- Requirements gathering and prioritization
+- Technical architecture decisions
+- Compliance and risk considerations
+- Documentation best practices
+
+---
+
+*Reference materials supporting portfolio case studies*

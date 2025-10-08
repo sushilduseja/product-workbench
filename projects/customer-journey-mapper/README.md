@@ -1,80 +1,227 @@
 # Customer Journey Mapper
 
-## Project Overview
+**Transform user friction into revenue opportunities through visual journey intelligence**
 
-The Customer Journey Mapper is a tool designed to provide clear visibility into user journeys, identify friction points, and enable rapid A/B testing for optimization. It was developed to address a critical challenge faced by a fintech startup: a 47% user drop-off rate during KYC verification.
+> **Real Impact:** 53% drop-off reduction · $1.2M revenue recovery · 8x faster problem identification
 
-By implementing this solution, the startup achieved a **53% reduction in drop-off**, recovered **$1.2M in annual revenue**, and accelerated problem identification by **8x**.
+[Live Demo](https://customer-journey-mapper.netlify.app/) | [Source Code](https://github.com/sushilduseja/customer-journey-mapper) | [Full Case Study](case-study.md)
 
-## Problem Statement
+---
 
-A rapidly growing Series A fintech startup with over 50,000 users was experiencing a significant bottleneck in its KYC verification flow, leading to a $2.3M annual revenue loss. The core issues were:
+## The Problem We Solved
 
-- **Fragmented Insights:** Data was scattered across 8+ tools, leading to misaligned priorities and delayed decisions among Product, Engineering, Compliance, and Design teams.
-- **High Drop-off:** A staggering 47% of users abandoned the process at the KYC step.
-- **Slow Problem Identification:** It took an average of 2.3 weeks to identify and diagnose issues.
-- **Low Confidence:** Team confidence in data-driven decisions was as low as 45%.
+A Series A fintech startup was losing $2.3M annually—47% of users abandoned their KYC verification flow. But the real problem wasn't technical:
 
-The following diagram illustrates the communication and interpretation breakdown:
+**The team couldn't see what users were experiencing.**
 
-[View Diagram](../../visuals/customer-journey-mapper/diagrams/pain_points_breakdown.mmd)
+Data lived in 8+ disconnected tools:
+- Product team: Analytics dashboards
+- Support team: Ticket volumes
+- Engineering: Error logs  
+- Design: Heatmaps
 
-## How It Works
+Everyone had data. No one had clarity.
 
-The approach is to **map the complete journey visually, surface friction automatically, and test solutions rapidly.**
+**Impact of fragmentation:**
+- **2.3 weeks** to identify and diagnose issues
+- **45%** team confidence in prioritization decisions
+- **Constant misalignment** on what to fix first
 
-The implementation process follows these steps:
+---
 
-[View Diagram](../../visuals/customer-journey-mapper/diagrams/implementation_steps_sequence.mmd)
+## The Solution: Visual Journey Intelligence
 
-## Real Impact Metrics
+Instead of adding another analytics tool, we built a **journey-first platform** that:
 
-The solution delivered significant, measurable improvements across key business metrics.
+1. **Maps the complete user experience** across all touchpoints
+2. **Surfaces friction automatically** through integrated analytics and feedback
+3. **Enables rapid experimentation** with built-in A/B testing workflows
 
-| Metric | Baseline | Result | Improvement |
-|--------|----------|--------|-------------|
-| KYC Drop-off Rate | 47% | 22% | 53% reduction |
-| Problem ID Time | 2.3 weeks | 5 days | 8x faster |
-| Stakeholder Alignment | 45% | 89% | 98% improvement |
-| Revenue Recovery | $0 | $1.2M | Annual gain |
-| User Satisfaction | 6.2/10 | 8.7/10 | 40% improvement |
+### Why This Approach Works
+
+Traditional analytics answer "what happened?" This tool answers "why did it happen?" and "what should we do about it?"
+
+By consolidating journey data into a single visual canvas:
+- ✅ Identify patterns invisible in traditional dashboards
+- ✅ Align stakeholders around the same user experience
+- ✅ Test hypotheses in days, not weeks
+
+---
+
+## Implementation Flow
+
+```mermaid
+sequenceDiagram
+    participant PM as Product Manager
+    participant CJM as Journey Mapper
+    participant Data as Analytics Data
+    participant Team as Cross-functional Team
+    
+    PM->>CJM: Map KYC flow
+    CJM->>Data: Import analytics
+    Data->>CJM: Return drop-off data
+    CJM->>PM: Highlight 47% drop at verification
+    PM->>CJM: Pull user feedback
+    CJM->>PM: Show "unclear requirements" theme
+    PM->>Team: Share visual journey map
+    Team->>PM: Align on solution
+    PM->>CJM: Create test variants
+    CJM->>Data: Run A/B test
+    Data->>CJM: Variant B wins (22% drop-off)
+    CJM->>PM: Export results
+    PM->>Team: Deploy winning variant
+```
+
+[View diagram source](../../visuals/customer-journey-mapper/diagrams/implementation_steps_sequence.mmd)
+
+---
+
+## Key Capabilities
+
+### 1. End-to-End Journey Visualization
+Map every step from awareness to conversion with automatic friction detection at each stage.
+
+### 2. Multi-Source Data Integration
+- Analytics platforms (Mixpanel, Google Analytics)
+- User feedback tools (Hotjar, Zendesk, Intercom)
+- Custom event tracking
+- Real-time monitoring and alerts
+
+### 3. Friction Heatmapping
+Automatic identification of:
+- High drop-off points
+- Extended time-on-task outliers
+- Negative sentiment clustering
+- Technical error patterns
+
+### 4. Hypothesis-Driven Testing
+Built-in A/B testing framework with:
+- Variant creation from journey insights
+- Real-time result tracking
+- Statistical significance indicators
+- Presentation-ready export
+
+---
+
+## The KYC Optimization Results
+
+### Discovery Phase (5 days)
+Using the journey mapper, we identified three friction sources:
+
+1. **Unclear instructions** (user feedback analysis)
+2. **Mobile upload failures** (error log integration)
+3. **Excessive required fields** (drop-off correlation)
+
+### Testing Phase (7 days)
+- Created 3 variants addressing each friction point
+- Ran simultaneous A/B tests
+- Variant combining all fixes showed 53% improvement
+
+### Final Outcomes
+
+| Metric | Before | After | Improvement |
+|--------|--------|-------|-------------|
+| KYC Drop-off Rate | 47% | 22% | **53% reduction** |
+| Problem ID Time | 2.3 weeks | 5 days | **8x faster** |
+| Team Alignment | 45% | 89% | **98% improvement** |
+| Revenue Recovery | $0 | $1.2M | **Annual gain** |
+| User Satisfaction | 6.2/10 | 8.7/10 | **40% improvement** |
+
+[Detailed case study with full methodology →](case-study.md)
+
+---
+
+## Technical Architecture
+
+**Built for performance and flexibility:**
+
+- **Frontend:** TypeScript + Vite (fast dev, optimized builds)
+- **Canvas Engine:** Custom rendering for fluid 60fps interactions
+- **Data Pipeline:** Real-time event ingestion with sub-second latency
+- **Export Engine:** Presentation-ready journey maps
+
+**Integration Philosophy:**  
+Plug into existing analytics stacks—don't replace them. Acts as a visual intelligence layer on top of your current tools.
+
+---
 
 ## Getting Started
 
 ### For Product Managers
-1.  **Identify a Journey:** Start with a critical user flow (e.g., onboarding, checkout, feature adoption).
-2.  **Connect Data Sources:** Integrate your analytics and user feedback tools (e.g., Mixpanel, Hotjar, Zendesk).
-3.  **Analyze Friction:** Use the visual map to identify steps with high drop-off rates or negative feedback.
-4.  **Formulate Hypotheses:** Develop data-backed hypotheses for improvement and design A/B tests.
+1. Map your critical journey (onboarding, checkout, feature adoption)
+2. Connect data sources (15 min setup with pre-built integrations)
+3. Identify friction points using automated heatmapping
+4. Design and launch A/B tests from the journey canvas
 
 ### For Developers
-1.  **Integrate Analytics:** Add the necessary tracking events to your application to feed data into the journey mapper.
-2.  **Configure the Pipeline:** Set up the data pipeline to ensure real-time data flow from your sources.
-3.  **Implement Variants:** Code the different variants for the A/B tests defined by the product team.
-4.  **Monitor Performance:** Track the performance of the variants and the overall system health.
+```bash
+# Clone and setup
+git clone https://github.com/sushilduseja/customer-journey-mapper
+cd customer-journey-mapper
+npm install
 
-### For Executives
-1.  **View the Dashboard:** Access the high-level dashboard for a quick overview of key journey performance.
-2.  **Track ROI:** Monitor the revenue impact and ROI of the optimizations being implemented.
-3.  **Strategic Planning:** Use the insights to inform strategic decisions and identify new areas for growth.
+# Configure data sources
+cp .env.example .env
+# Add your analytics API keys
 
-## Technical Stack and Architecture
+# Run locally
+npm run dev
+```
 
-### Stack
--   **Frontend:** TypeScript + Vite for a high-performance, interactive UI.
--   **Rendering:** A custom canvas engine for fluid visual interactions and journey mapping.
--   **Backend:** A real-time data processing pipeline to ingest and analyze event streams.
--   **Exports:** A presentation-ready export system to share insights easily.
+[Detailed implementation guide →](demo.md)
 
-### Data Sources
-The tool integrates with a variety of data sources to provide a holistic view:
--   **Analytics:** Mixpanel, Google Analytics
--   **User Feedback:** Hotjar, Zendesk, Intercom
--   **Experimentation:** Custom A/B testing framework
--   **Monitoring:** Real-time monitoring and alerting systems
+---
 
-## Links
+## Who This Is For
 
--   **Portfolio Site:** [https://customer-journey-mapper.netlify.app/](https://customer-journey-mapper.netlify.app/)
--   **Source Code:** [https://github.com/sushilduseja/customer-journey-mapper](https://github.com/sushilduseja/customer-journey-mapper)
--   **Detailed Case Study:** [case-study.md](case-study.md)
+**Primary Users:**
+- Product Managers optimizing conversion funnels
+- UX Researchers investigating friction patterns
+- Growth Teams running rapid experiments
+- Executives needing visibility into user experience ROI
+
+**Ideal Use Cases:**
+- Onboarding flow optimization
+- Checkout/payment journey improvement
+- Feature adoption tracking
+- Support ticket reduction initiatives
+
+---
+
+## What Users Say
+
+> "Finally, I understand what our users experience" — CEO, Fintech Startup
+
+> "We can see problems before they become crises" — Product Manager, SaaS Company
+
+> "The visual heatmapping made invisible friction impossible to ignore" — Product Manager, Fintech Startup
+
+> "This gave me clarity I never had before" — CEO, Growing Startup
+
+[More testimonials →](../../impact/testimonials.md)
+
+---
+
+## Resources
+
+- **Live Demo:** [customer-journey-mapper.netlify.app](https://customer-journey-mapper.netlify.app/)
+- **Source Code:** [GitHub Repository](https://github.com/sushilduseja/customer-journey-mapper)
+- **Case Study:** [Detailed analysis](case-study.md)
+- **Implementation Guide:** [Step-by-step setup](demo.md)
+- **Visual Assets:** [Screenshots and diagrams](../../visuals/customer-journey-mapper/)
+
+---
+
+## Why This Documentation Matters
+
+This isn't just a project README—it's a demonstration of how to:
+- ✅ Articulate problems with quantified impact
+- ✅ Present solutions with clear before/after outcomes
+- ✅ Show execution through detailed case studies
+- ✅ Prove value with measurable business metrics
+
+*If you're evaluating my product thinking, this structure reflects how I approach real-world product discovery, validation, and stakeholder communication.*
+
+---
+
+**Built to showcase:** Clear thinking · Measurable impact · Real-world application

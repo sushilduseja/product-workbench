@@ -1,71 +1,86 @@
-# Product Workbench - Portfolio
+# Product Workbench
 
-Product philosophy
-
-- Focus on measurable impact, iterative learning, and pragmatic prototyping.
+**Portfolio demonstrating product thinking through measurable outcomes**
 
 ---
 
-## Projects
+## Featured Project
 
-Each project folder contains: summary, README, visuals, and a case study fact sheet.
+### Customer Journey Mapper
+**Transform user friction into revenue opportunities through visual journey intelligence**
 
-| Project | One-liner | Repo Link | Visual Artifact |
-| ------- | --------- | --------- | --------------- |
-| FX Insights Dashboard | Real-time analytics for institutional trading | [Repo] | ![Dashboard GIF](visuals/dashboard.gif)
-| Algorithmic Trading Simulator | Sandbox for building/testing algos | [Repo] | ![Simulator Video](visuals/simulator.mp4)
-| Regulatory Impact Tracker | Track & map product risk from regulations | [Repo] | ![Tracker Chart](visuals/tracker-chart.png)
-| Agile Velocity Analyzer | Sprint/process metrics visualization | [Repo] | ![Analyzer GIF](visuals/analyzer.gif)
-| Strategic Roadmap Generator | Roadmap creation & prioritization | [Repo] | ![Roadmap Screenshot](visuals/roadmap.png)
-| Customer Journey Mapper | No-code journey analytics | [Repo] | ![Journey Map GIF](visuals/journey.gif)
-| GenAI Product Case Study | Designing & validating financial GenAI features | [Repo] | ![Case Deck](visuals/case-deck.pdf)
+**Impact:** 53% drop-off reduction · $1.2M revenue recovery · 8x faster problem identification
+
+[Live Demo](https://customer-journey-mapper.netlify.app/) | [Case Study](projects/customer-journey-mapper/case-study.md) | [Source Code](https://github.com/sushilduseja/customer-journey-mapper)
 
 ---
 
-## Skills & Tools
+## Additional Projects
 
-**Core competencies**
-
-- Product strategy, backlog prioritization
-- Regulatory impact analysis, compliance
-- Data analysis, dashboards & visualization
-- Agile process optimization, design thinking
-- Technical prototyping, API integration
-
-**Skills map**
-
-See `visuals/skills-radar.png` for a radar-style skills mapping.
+| Project | Focus Area | Key Outcome |
+|---------|------------|-------------|
+| [FX Insights Dashboard](projects/fx-insights-dashboard/) | Real-time trading analytics | 30% throughput improvement, 99.95% uptime |
+| [Algorithmic Trading Simulator](projects/algorithmic-trading-simulator/) | Safe algo validation | Reduced live test failures |
+| [Regulatory Impact Tracker](projects/regulatory-impact-tracker/) | Compliance mapping | Faster impact analysis cycles |
+| [Agile Velocity Analyzer](projects/agile-velocity-analyzer/) | Process optimization | 25% faster deployment |
+| [Strategic Roadmap Generator](projects/strategic-roadmap-generator/) | Prioritization framework | Improved stakeholder alignment |
+| [GenAI Product Case Study](projects/genai-product-case-study/) | AI feature validation | Production readiness framework |
 
 ---
 
-## Product thinking
+## Core Competencies
 
-- Mini-case studies (problem → solution → impact)
-- Metrics-driven outcomes and product hypotheses
-- Links to blog posts / whitepapers: add links in `docs/index.md`
+**Product Strategy**
+- Outcome-driven roadmapping
+- Hypothesis-driven validation
+- Metrics-based prioritization
 
-Example mini-case study
+**Technical Execution**
+- Data pipeline architecture
+- Real-time analytics systems
+- API integration and prototyping
 
-| Problem | Solution | Impact (KPIs) |
-| ------- | -------- | ------------- |
-| Manual FX pricing bottlenecks | Automated execution module | 99.95% uptime, $1B+ daily volume |
+**Domain Expertise**
+- Financial services and trading systems
+- Regulatory compliance and risk management
+- Agile process optimization
+
+**Tools & Stack**
+- Frontend: TypeScript, React, Vite
+- Data: Python, Kafka, TimescaleDB
+- Visualization: D3, Canvas API
+- Cloud: Docker, AWS, monitoring systems
+
+---
+
+## Documentation Structure
+
+```
+product-workbench/
+├── README.md                    # Portfolio overview (this file)
+├── projects/                    # Individual project deep-dives
+│   └── customer-journey-mapper/ # Featured case study
+├── visuals/                     # Screenshots and diagrams
+└── impact/                      # Consolidated metrics and testimonials
+```
 
 ---
 
-## Documentation & Visuals
+## Approach
 
-- Architecture diagrams, user journeys, dashboards live in `/docs` & `/visuals`.
-- Add GIFs / videos to `/visuals` and reference them from project READMEs.
-- Short how-to: `docs/how-to.md` explains artifact navigation.
+Every project follows the same framework:
+
+1. **Quantified Problem** - What business pain exists and how much does it cost?
+2. **Solution Design** - What approach addresses root causes?
+3. **Measurable Impact** - What improved and by how much?
+4. **Key Learnings** - What worked, what didn't, what's next?
+
+---
+
+## Contact
+
+[Your professional contact information]
 
 ---
 
-## Repository layout
-
-- `/README.md` — overview, highlights, project links (this file)
-- `/docs/` — wireframes, product specs, user stories, business case, compliance annex
-- `/visuals/` — GIFs, videos, screenshots, charts (embed in README)
-- `/impact/` — metrics tables, client testimonials, user feedback
-- `/projects/` — a folder per project with README, case-study, demo notes
-
----
+*This portfolio demonstrates product thinking through real-world scenarios, measurable outcomes, and clear documentation practices.*

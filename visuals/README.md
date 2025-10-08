@@ -1,29 +1,45 @@
-# Visuals
+# Visual Assets
 
-Place all visual assets here. Prefer external hosting (S3, CDN) for large files and keep small preview GIFs in this folder.
+This folder contains screenshots, diagrams, and presentation materials for portfolio projects.
 
-## Project-Specific Visuals
+## Organization
 
-### Customer Journey Mapper
-- **Screenshots:** `customer-journey-mapper/screenshots/` - Live application screenshots
-- **Documentation:** `customer-journey-mapper/README.md` - Asset organization guide
+```
+visuals/
+├── customer-journey-mapper/     # Featured project assets
+│   ├── screenshots/             # Application screenshots
+│   └── diagrams/               # Architecture and flow diagrams
+└── README.md                   # This file
+```
 
-## Suggested Filenames (used in READMEs):
-- `skills-radar.png`
-- `dashboard.gif`
-- `simulator.mp4`
-- `tracker-chart.png`
-- `analyzer.gif`
-- `roadmap.png`
-- `journey.gif`
-- `case-deck.pdf`
+## Guidelines
 
-## Asset Guidelines
-- **File Naming:** Use descriptive, kebab-case names
-- **Formats:** PNG for quality, JPG for size, GIF for animations
-- **Dimensions:** 1385px width x ~11,000px height (full page capture)
-- **File Size:** 300-500KB per image (naturally optimized)
-- **Quality:** High-quality screenshots without compression artifacts
-- **Alt Text:** Always provide descriptive alt text for accessibility
+**File Naming**
+- Use descriptive, kebab-case names
+- Include context in filename (e.g., `kyc-flow-optimization.png`)
 
-Note: This repo contains both placeholder references and actual captured assets from live applications.
+**Formats**
+- PNG for static images (diagrams, screenshots)
+- GIF for short animations (under 2MB)
+- Use external hosting (S3, CDN) for video files
+
+**Dimensions**
+- Desktop screenshots: 1280px - 1920px width
+- Mobile screenshots: 375px - 414px width
+- Maintain aspect ratios
+
+**Optimization**
+- Compress PNGs (aim for <500KB per image)
+- Optimize GIFs with tools like Gifsicle
+- Always provide descriptive alt text
+
+## Usage
+
+Reference visuals in project documentation:
+```markdown
+![Alt text](../visuals/project-name/screenshot.png)
+```
+
+---
+
+*Organized visual assets supporting portfolio documentation*

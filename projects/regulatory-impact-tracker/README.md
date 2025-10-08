@@ -1,14 +1,28 @@
 # Regulatory Impact Tracker
 
-One-liner: Track and map product risk from evolving regulations.
+**Track and map product risk from evolving regulations**
 
 ## Problem
-Reg changes require fast product decisions and traceability.
+Regulatory changes require fast product decisions and traceability. Uncertain impact areas during compliance reviews.
 
 ## Solution
-A mapping engine that links rules to product components, owners, and mitigations.
+Mapping engine linking regulatory obligations → affected components → remediation tasks.
 
-## Tech
-Graph DB, ETL, UI for traceability
+**Technical Stack:**
+- Graph database for relationship mapping
+- ETL pipeline for regulation ingestion
+- UI for traceability and reporting
 
-See `case-study.md` for details.
+## Impact
+- Shorter impact analysis cycles
+- Improved audit readiness
+- Clear ownership and accountability chains
+
+## Key Learnings
+- Graph-based modeling fits regulatory relationships naturally
+- Automated mapping reduces manual compliance workload
+- Visualization helps non-technical stakeholders understand impact
+
+---
+
+[View case study](case-study.md) | [Back to portfolio](../../README.md)

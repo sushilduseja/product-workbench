@@ -1,17 +1,29 @@
 # Algorithmic Trading Simulator
 
-One-liner: Sandbox for building and testing trading algorithms.
+**Safe sandbox for building and testing trading algorithms**
 
 ## Problem
-No safe, realistic environment to prototype algos with market-like data.
+No safe, realistic environment to prototype algorithms with market-like data. High risk and long validation cycles for new strategies.
 
 ## Solution
-Replay engine + simulated market microstructure; plugin-based strategy runner.
+Replay engine with simulated market microstructure and plugin-based strategy runner.
 
-## Tech
-Python, Docker, Postgres, Web UI
+**Technical Stack:**
+- Python for strategy engine
+- Docker for isolated environments
+- PostgreSQL for market data replay
+- Web UI for visualization
 
-## Results
-- Faster experiment cycles; reduced risk in production rollouts
+## Impact
+- Faster experiment cycles
+- Reduced risk in production rollouts
+- Reproducible testing with recorded market sessions
 
-See `case-study.md` and `demo.md` for more.
+## Key Learnings
+- Deterministic replay is critical for debugging
+- Market microstructure simulation matters more than just price data
+- Plugin architecture enables rapid strategy iteration
+
+---
+
+[View case study](case-study.md) | [Back to portfolio](../../README.md)
