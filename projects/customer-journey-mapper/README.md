@@ -17,28 +17,7 @@ A rapidly growing Series A fintech startup with over 50,000 users was experienci
 
 The following diagram illustrates the communication and interpretation breakdown:
 
-```mermaid
-graph LR
-    A[Data Sources] --&gt; B[Analytics Team]
-    A --&gt; C[Support Team]
-    A --&gt; D[Engineering Team]
-    A --&gt; E[Design Team]
-    
-    B --&gt; F[Different Interpretations]
-    C --&gt; F
-    D --&gt; F
-    E --&gt; F
-    
-    F --&gt; G[Delayed Decisions]
-    F --&gt; H[Misaligned Priorities]
-    F --&gt; I[Failed Experiments]
-    
-    style A fill:#e9ecef,stroke:#868e96
-    style F fill:#ff6b6b,stroke:#c92a2a
-    style G fill:#ff6b6b,stroke:#c92a2a
-    style H fill:#ff6b6b,stroke:#c92a2a
-    style I fill:#ff6b6b,stroke:#c92a2a
-```
+[View Diagram](../../visuals/customer-journey-mapper/diagrams/pain_points_breakdown.mmd)
 
 ## How It Works
 
@@ -46,27 +25,7 @@ The approach is to **map the complete journey visually, surface friction automat
 
 The implementation process follows these steps:
 
-```mermaid
-sequenceDiagram
-    participant PM as Product Manager
-    participant CJM as Journey Mapper
-    participant Data as Analytics Data
-    participant Team as Cross-functional Team
-    
-    PM-&gt;&gt;CJM: Map KYC flow
-    CJM-&gt;&gt;Data: Import analytics
-    Data-&gt;&gt;CJM: Return drop-off data
-    CJM-&gt;&gt;PM: Highlight 47% drop at verification
-    PM-&gt;&gt;CJM: Pull user feedback
-    CJM-&gt;&gt;PM: Show "unclear requirements" theme
-    PM-&gt;&gt;Team: Share visual journey map
-    Team-&gt;&gt;PM: Align on solution
-    PM-&gt;&gt;CJM: Create test variants
-    CJM-&gt;&gt;Data: Run A/B test
-    Data-&gt;&gt;CJM: Variant B wins (22% drop-off)
-    CJM-&gt;&gt;PM: Export results
-    PM-&gt;&gt;Team: Deploy winning variant
-```
+[View Diagram](../../visuals/customer-journey-mapper/diagrams/implementation_steps_sequence.mmd)
 
 ## Real Impact Metrics
 

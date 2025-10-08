@@ -20,28 +20,7 @@
 
 ### Pain Points
 
-```mermaid
-graph LR
-    A[Data Sources] --&gt; B[Analytics Team]
-    A --&gt; C[Support Team]
-    A --&gt; D[Engineering Team]
-    A --&gt; E[Design Team]
-    
-    B --&gt; F[Different Interpretations]
-    C --&gt; F
-    D --&gt; F
-    E --&gt; F
-    
-    F --&gt; G[Delayed Decisions]
-    F --&gt; H[Misaligned Priorities]
-    F --&gt; I[Failed Experiments]
-    
-    style A fill:#e9ecef,stroke:#868e96
-    style F fill:#ff6b6b,stroke:#c92a2a
-    style G fill:#ff6b6b,stroke:#c92a2a
-    style H fill:#ff6b6b,stroke:#c92a2a
-    style I fill:#ff6b6b,stroke:#c92a2a
-```
+[View Diagram](../../visuals/customer-journey-mapper/diagrams/pain_points_breakdown.mmd)
 
 **Quantified Impact**
 - 47% drop-off rate at KYC step
@@ -68,27 +47,7 @@ Map the complete journey visually. Surface friction automatically. Test solution
 
 ### Implementation Steps
 
-```mermaid
-sequenceDiagram
-    participant PM as Product Manager
-    participant CJM as Journey Mapper
-    participant Data as Analytics Data
-    participant Team as Cross-functional Team
-    
-    PM-&gt;&gt;CJM: Map KYC flow
-    CJM-&gt;&gt;Data: Import analytics
-    Data-&gt;&gt;CJM: Return drop-off data
-    CJM-&gt;&gt;PM: Highlight 47% drop at verification
-    PM-&gt;&gt;CJM: Pull user feedback
-    CJM-&gt;&gt;PM: Show "unclear requirements" theme
-    PM-&gt;&gt;Team: Share visual journey map
-    Team-&gt;&gt;PM: Align on solution
-    PM-&gt;&gt;CJM: Create test variants
-    CJM-&gt;&gt;Data: Run A/B test
-    Data-&gt;&gt;CJM: Variant B wins (22% drop-off)
-    CJM-&gt;&gt;PM: Export results
-    PM-&gt;&gt;Team: Deploy winning variant
-```
+[View Diagram](../../visuals/customer-journey-mapper/diagrams/implementation_steps_sequence.mmd)
 
 ---
 
@@ -106,28 +65,7 @@ sequenceDiagram
 
 ### Visual Impact Flow
 
-```mermaid
-graph TD
-    A[Before: 47% Drop-off] --&gt; B[Journey Mapping]
-    B --&gt; C[Friction Detection]
-    C --&gt; D[User Feedback Analysis]
-    D --&gt; E[Hypothesis: Unclear Instructions]
-    E --&gt; F[Variant Testing]
-    F --&gt; G[After: 22% Drop-off]
-    
-    H[Before: 2.3 weeks] --&gt; I[Visual Alignment]
-    I --&gt; J[After: 5 days]
-    
-    K[Before: $0] --&gt; L[Optimization]
-    L --&gt; M[After: $1.2M recovery]
-    
-    style A fill:#ff6b6b,stroke:#c92a2a
-    style G fill:#51cf66,stroke:#2f9e44,stroke-width:3px
-    style H fill:#ff6b6b,stroke:#c92a2a
-    style J fill:#51cf66,stroke:#2f9e44,stroke-width:3px
-    style K fill:#ff6b6b,stroke:#c92a2a
-    style M fill:#51cf66,stroke:#2f9e44,stroke-width:3px
-```
+[View Diagram](../../visuals/customer-journey-mapper/diagrams/visual_impact_flow.mmd)
 
 ### Qualitative Feedback
 
