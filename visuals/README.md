@@ -1,6 +1,14 @@
 # Visual Assets
 
-This folder contains screenshots, diagrams, and presentation materials for portfolio projects.
+## Portfolio Context
+
+Screenshots and diagrams in this repository demonstrate:
+- Product documentation skills
+- Technical architecture thinking  
+- User experience design capability
+- Metrics-driven decision frameworks
+
+These are working prototypes and simulations, not production deployments. They validate technical implementation skills and product thinking applicable to real-world challenges.
 
 ## Organization
 

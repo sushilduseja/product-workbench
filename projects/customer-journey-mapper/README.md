@@ -2,7 +2,7 @@
 
 **Transform user friction into revenue opportunities through visual journey intelligence**
 
-> **Real Impact:** 53% drop-off reduction · $1.2M revenue recovery · 8x faster problem identification
+**Demonstrated Capabilities:** Journey optimization framework · Revenue impact modeling · Data-driven discovery process
 
 [Live Demo](https://customer-journey-mapper.netlify.app/) | [Source Code](https://github.com/sushilduseja/customer-journey-mapper) | [Full Case Study](case-study.md)
 
@@ -10,7 +10,7 @@
 
 ## The Problem We Solved
 
-A Series A fintech startup was losing $2.3M annually—47% of users abandoned their KYC verification flow. But the real problem wasn't technical:
+**Framework Application:** Modeled using 47% KYC abandonment—documented industry benchmark for unoptimized fintech onboarding. This scenario validates diagnostic methodology and prioritization frameworks applicable to real conversion problems.
 
 **The team couldn't see what users were experiencing.**
 
@@ -103,7 +103,7 @@ Built-in A/B testing framework with:
 
 ---
 
-## The KYC Optimization Results
+## Framework Application: KYC Optimization Model
 
 ### Discovery Phase (5 days)
 Using the journey mapper, we identified three friction sources:
@@ -188,20 +188,6 @@ npm run dev
 
 ---
 
-## What Users Say
-
-> "Finally, I understand what our users experience" — CEO, Fintech Startup
-
-> "We can see problems before they become crises" — Product Manager, SaaS Company
-
-> "The visual heatmapping made invisible friction impossible to ignore" — Product Manager, Fintech Startup
-
-> "This gave me clarity I never had before" — CEO, Growing Startup
-
-[More testimonials →](../../impact/testimonials.md)
-
----
-
 ## Resources
 
 - **Live Demo:** [customer-journey-mapper.netlify.app](https://customer-journey-mapper.netlify.app/)
@@ -215,13 +201,15 @@ npm run dev
 ## Why This Documentation Matters
 
 This isn't just a project README—it's a demonstration of how to:
-- ✅ Articulate problems with quantified impact
-- ✅ Present solutions with clear before/after outcomes
-- ✅ Show execution through detailed case studies
-- ✅ Prove value with measurable business metrics
+- Articulate problems with quantified impact
+- Present solutions with clear before/after outcomes
+- Show execution through detailed case studies
+- Prove value with measurable business metrics
 
 *If you're evaluating my product thinking, this structure reflects how I approach real-world product discovery, validation, and stakeholder communication.*
 
 ---
 
 **Built to showcase:** Clear thinking · Measurable impact · Real-world application
+
+*Outcomes modeled as part of capability demonstrations. See Impact Metrics for details.*

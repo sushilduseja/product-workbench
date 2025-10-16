@@ -1,5 +1,9 @@
 # Algorithmic Trading Simulator
 
+**Portfolio Purpose:** Demonstrates ability to build safe testing environments for high-risk trading logic -- a critical product requirement in capital markets.
+
+**Validation:** Working simulation environment with deterministic replay engine. Demonstrates risk management thinking and safe testing architecture applicable to high-consequence systems. Performance metrics based on requirements documented in algorithmic trading literature.
+
 **Safe sandbox for building and testing trading algorithms**
 
 ## Problem

@@ -3,7 +3,7 @@
 - README.md — overview of portfolio and links
 - projects/ — add each project as its own git repo or subfolder
 - visuals/ — store visual assets (prefer external hosting for large files)
-- impact/ — add metrics & testimonials used in case studies
+- impact/ – consolidated metrics with methodology sources
 
 Best practice
 
