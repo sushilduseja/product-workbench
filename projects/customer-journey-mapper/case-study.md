@@ -149,20 +149,9 @@ Map the complete journey visually. Surface friction automatically. Test solution
 
 ## Resources
 
-- [Project README](README.md) - Overview and getting started
-- [Demo Guide](demo.md) - Step-by-step walkthrough
-- [Impact Metrics](../impact/metrics.md) - Detailed performance data
-- [Testimonials](../impact/testimonials.md) - User feedback
-
 **Portfolio site:** https://customer-journey-mapper.netlify.app/
 
 **Source code:** https://github.com/sushilduseja/customer-journey-mapper
-
----
-
-Built to transform user insights into measurable business impact.
-
----
 
 ## Capability Validation Approach
 
